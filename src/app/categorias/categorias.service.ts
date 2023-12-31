@@ -8,7 +8,7 @@ import { Respuesta } from './categorias.model';
 })
 
 export class CategoriasService {
-  private urlAPI = "http://localhost:3000/socios/v1/categorias";
+  private urlAPI = "https://cdbf-edta-03.onrender.com";
 
   constructor(private http:HttpClient) { }
 
